@@ -32,4 +32,4 @@ git clone https://github.com/ledewrt/luci-app-ledeproxy.git package/luci-app-led
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 git clone https://github.com/BCYDTZ/luci-app-UUGameAcc.git package/luci-app-UUGameAcc
-git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
+git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
