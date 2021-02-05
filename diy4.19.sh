@@ -20,7 +20,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-
 git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
@@ -33,3 +32,4 @@ git clone https://github.com/ledewrt/luci-app-ledeproxy.git package/luci-app-led
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 git clone https://github.com/BCYDTZ/luci-app-UUGameAcc.git package/luci-app-UUGameAcc
+git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
