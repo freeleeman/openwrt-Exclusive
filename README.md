@@ -18,7 +18,7 @@ project-openwrt源码版本，内核为***4.19***版(同步[linux4.19内核](htt
 
 自动每3天更新一次，手动不定时更新
 
-> `ip：192.168.1.1 密码：password`
+> `ip：192.168.5.1 密码：password`
 
 ## 固件下载
 ### 点击[Actions](https://github.com/firker/openwrt-Exclusive/actions) 或者[Releases](https://github.com/firker/openwrt-Exclusive/releases) 选择需要的版本
