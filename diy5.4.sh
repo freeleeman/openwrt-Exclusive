@@ -16,7 +16,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
 #sed -i '$a src-git diy https://github.com/firker/diy-ziyong' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom' feeds.conf.default
+
 
 # mv -vf ../mt7621_phicomm_k2p.dts ./target/linux/ramips/dts/mt7621_phicomm_k2p.dts
 #　git clone https://github.com/vernesong/OpenClash.git package/OpenClash
@@ -27,6 +27,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luc
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 git clone https://github.com/freeleeman/luci-theme-opentomcat.git package/luci-theme-opentomcat
 git clone https://github.com/freeleeman/luci-theme-opentomato.git package/luci-theme-opentomato
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
