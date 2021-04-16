@@ -21,7 +21,7 @@ sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds
 # mv -vf ../mt7621_phicomm_k2p.dts ./target/linux/ramips/dts/mt7621_phicomm_k2p.dts
 #　git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-git clone https://github.com/tcsr200722/luci-app-koolproxyR-2.git package/luci-app-koolproxyR-2
+#git clone https://github.com/tcsr200722/luci-app-koolproxyR-2.git package/luci-app-koolproxyR-2
 git clone https://github.com/freeleeman/luci-app-dockerman.git package/luci-app-dockerman
 git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
