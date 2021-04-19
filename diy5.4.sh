@@ -21,7 +21,7 @@ sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds
 # mv -vf ../mt7621_phicomm_k2p.dts ./target/linux/ramips/dts/mt7621_phicomm_k2p.dts
 #　git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
-#git clone https://github.com/tcsr200722/luci-app-koolproxyR-2.git package/luci-app-koolproxyR
+git clone https://github.com/tcsr200722/luci-app-koolproxyR-2.git package/luci-app-koolproxyR
 git clone https://github.com/freeleeman/luci-app-dockerman.git package/luci-app-dockerman
 git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
@@ -35,7 +35,7 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-ser
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 #git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
 #git clone https://github.com/ledewrt/luci-app-ledeproxy.git package/luci-app-ledeproxy
-#git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
+git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 git clone https://github.com/BCYDTZ/luci-app-UUGameAcc.git package/luci-app-UUGameAcc
 #git clone https://github.com/freeleeman/luci-app-dockerman.git package/luci-app-dockerman
