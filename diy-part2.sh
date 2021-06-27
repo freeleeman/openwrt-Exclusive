@@ -11,7 +11,7 @@ sed -i '/DTS_DIR:=$(LINUX_DIR)/a\BUILD_DATE_PREFIX := $(shell date +'%F')' ./inc
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
 sed -i "s/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='OpenWrt by WoodFree '/g" ./package/lean/default-settings/files/zzz-default-settings
 sed -i 's/bootstrap/opentomato/g' ./feeds/luci/modules/luci-base/root/etc/config/luci  
-sed -i '7{s/$/ R21.6.1 | by WoodFree/}' ./package/base-files/files/etc/banner
+sed -i '7{s/$/ R21.6.22 | by WoodFree/}' ./package/base-files/files/etc/banner
 # sed -i "s/hostname='OpenWrt'/hostname='OpenWrt-WF'/g" ./package/base-files/files/bin/config_generate
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/19.07/net/https-dns-proxy/files/https-dns-proxy.config > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.config
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/19.07/net/https-dns-proxy/files/https-dns-proxy.init > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
