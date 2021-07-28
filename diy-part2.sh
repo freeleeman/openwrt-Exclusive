@@ -11,7 +11,7 @@ sed -i '/DTS_DIR:=$(LINUX_DIR)/a\BUILD_DATE_PREFIX := $(shell date +'%F')' ./inc
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(BUILD_DATE_PREFIX)-/g' ./include/image.mk
 sed -i "s/DISTRIB_DESCRIPTION='OpenWrt '/DISTRIB_DESCRIPTION='OpenWrt by WoodFree '/g" ./package/lean/default-settings/files/zzz-default-settings
 sed -i 's/bootstrap/opentomato/g' ./feeds/luci/modules/luci-base/root/etc/config/luci  
-sed -i '7{s/$/ R21.7.15 | by WoodFree/}' ./package/base-files/files/etc/banner
+sed -i '7{s/$/ R21.7.26 | by WoodFree/}' ./package/base-files/files/etc/banner
 # sed -i "s/hostname='OpenWrt'/hostname='OpenWrt-WF'/g" ./package/base-files/files/bin/config_generate
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/19.07/net/https-dns-proxy/files/https-dns-proxy.config > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.config
 # curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/19.07/net/https-dns-proxy/files/https-dns-proxy.init > ./feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
@@ -20,7 +20,7 @@ sed -i '7{s/$/ R21.7.15 | by WoodFree/}' ./package/base-files/files/etc/banner
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm 
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.8.2/g' package/base-files/files/bin/config_generate
 # rm -rf ./package/lean/dnsforwarder
 rm -rf ./package/lean/luci-theme-argon
 rm -rf ./feeds/packages/net/https-dns-proxy
