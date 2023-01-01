@@ -22,7 +22,7 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 
 # mv -vf ../mt7621_phicomm_k2p.dts ./target/linux/ramips/dts/mt7621_phicomm_k2p.dts
 
-git clone https://github.com/fw876/helloworld package/helloworld
+#git clone https://github.com/fw876/helloworld package/helloworld
 #git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 #git clone https://github.com/freeleeman/luci-app-dockerman.git package/luci-app-dockerman
