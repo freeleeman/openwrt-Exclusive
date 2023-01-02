@@ -20,7 +20,7 @@ sed -i '7{s/$/ R23.1.1 | by WoodFree/}' ./package/base-files/files/etc/banner
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/poweroff.htm > ./feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_system/poweroff.htm 
 # curl -fsSL  https://raw.githubusercontent.com/siropboy/other/master/patch/poweroff/system.lua > ./feeds/luci/modules/luci-mod-admin-full/luasrc/controller/admin/system.lua
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.5.10/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.5.100/g' package/base-files/files/bin/config_generate
 # rm -rf ./package/lean/dnsforwarder
 rm -rf ./package/lean/luci-theme-argon
 rm -rf ./feeds/packages/net/https-dns-proxy
