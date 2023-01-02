@@ -21,19 +21,18 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 
 
 # mv -vf ../mt7621_phicomm_k2p.dts ./target/linux/ramips/dts/mt7621_phicomm_k2p.dts
-
 #git clone https://github.com/fw876/helloworld package/helloworld
 #git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
-git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
+#git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 #git clone https://github.com/freeleeman/luci-app-dockerman.git package/luci-app-dockerman
-git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
-git clone https://github.com/freeleeman/luci-theme-opentomcat.git package/luci-theme-opentomcat
-git clone https://github.com/freeleeman/luci-theme-opentomato.git package/luci-theme-opentomato
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+#git clone -b master https://github.com/vernesong/OpenClash.git package/OpenClash
+#git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+#git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
+#git clone https://github.com/freeleeman/luci-theme-opentomcat.git package/luci-theme-opentomcat
+#git clone https://github.com/freeleeman/luci-theme-opentomato.git package/luci-theme-opentomato
+#git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
+#git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 #git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
