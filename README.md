@@ -7,6 +7,7 @@ P3TERX云编译脚本地址：[https://github.com/P3TERX/Actions-OpenWrt](https:
 lean固件源码地址：[https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 
 project-openwrt固件源码地址：[https://github.com/project-openwrt/openwrt](https://github.com/project-openwrt/openwrt)
+kenzok8 插件源码地址 :https://github.com/kenzok8/small-package
 
 由衷感谢所有为openwrt无私奉献的大佬们。
 
@@ -18,7 +19,7 @@ project-openwrt源码版本，内核为***4.19***版(同步[linux4.19内核](htt
 
 自动每3天更新一次，手动不定时更新
 
-> `ip：192.168.8.1 密码：password`
+> `ip：192.168.5.1 密码：password`
 
 ## 固件下载
 ### 点击[Actions](https://github.com/firker/openwrt-Exclusive/actions) 或者[Releases](https://github.com/firker/openwrt-Exclusive/releases) 选择需要的版本
