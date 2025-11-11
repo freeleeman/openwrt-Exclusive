@@ -28,5 +28,5 @@ rm -rf ./feeds/diy/luci-app-vssr-plus
 rm -rf ./feeds/diy/vssr
 # rm -rf ./package/lean/v2ray
 # rm -rf ./package/lean/v2ray-plugin
-svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
+# svn co https://github.com/Lienol/openwrt-packages/trunk/net/https-dns-proxy feeds/packages/net/https-dns-proxy
 # svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/dnsforwarder package/lean/dnsforwarder
